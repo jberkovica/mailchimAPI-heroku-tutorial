@@ -33,7 +33,7 @@ app.post("/", function (req, res) {
 
   const jsonData = JSON.stringify(data);
 
-  const APIkey = "add key here";
+  const APIkey = "ce0da5d33a7eadcacc465f052247cd14-us7";
   const audienceID = "23bd71a188";
   const url = "https://us7.api.mailchimp.com/3.0/lists/" + audienceID;
   const auth = "jberkovica:" + APIkey;
